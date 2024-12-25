@@ -345,20 +345,6 @@ socks = [
 ]
 
 [[package]]
-name = "httpx-socks"
-version = "0.10.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "httpcore" },
-    { name = "httpx" },
-    { name = "python-socks" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/26/a4/b93909386d9bfc9d43fbb4a35bc33936ff5e6952d03aba8958af3b7dfada/httpx_socks-0.10.0.tar.gz", hash = "sha256:e232e31174de79cc79ca7174bbc159aabb4b95e0ff5cc2d894d33f6cbe1a1096", size = 93710 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/9d/fc/f55d40f5c158c7acf7a45771019c75a41de756c0a9af6139155a322258f8/httpx_socks-0.10.0-py3-none-any.whl", hash = "sha256:9345572cc1b279c0878ab976c654a78d9b4b7b446183ec1e03569a480021addb", size = 12844 },
-]
-
-[[package]]
 name = "hyperframe"
 version = "6.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -479,24 +465,22 @@ wheels = [
 
 [[package]]
 name = "mm-solana"
-version = "0.1.7"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "base58" },
-    { name = "httpx-socks" },
     { name = "jinja2" },
     { name = "mm-std" },
     { name = "solana" },
-    { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1c/88/ef04a1569a146a3455f1f11b9c24762f5c60bfe0b61a9e44808b3a559827/mm_solana-0.1.7.tar.gz", hash = "sha256:68742c41e14f22be3438d0f7bdcde581b538f56478d6094b04d6a0d9ac5333e2", size = 51804 }
+sdist = { url = "https://files.pythonhosted.org/packages/3b/23/8f52d25648e24eae61a510041588e2d34d1d5e87560ca5e49855a893a99e/mm_solana-0.2.0.tar.gz", hash = "sha256:a393636e095d956d51e57e4d5793d4fc88600b389b386cfbeedc4fd23234f5a2", size = 45812 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/df/f3/52087894b8c389bfa6a6cde36f59a86e491078998466ffb8b98d6a3b5459/mm_solana-0.1.7-py3-none-any.whl", hash = "sha256:7d6e2a6a9929f99544eb22e5563fae4ac5b51833a96ba0145dd62c86250e7793", size = 19006 },
+    { url = "https://files.pythonhosted.org/packages/26/27/300647466d41bc81be16c5391af8448846355a74e5559f2093a3a9abef0f/mm_solana-0.2.0-py3-none-any.whl", hash = "sha256:a740db39eedfd6bd99a10ee169cb001b801f9b13116401a1ff077c18299511e7", size = 10711 },
 ]
 
 [[package]]
 name = "mm-solana-cli"
-version = "0.0.1"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "mm-solana" },
@@ -516,7 +500,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "mm-solana", specifier = "~=0.1.7" },
+    { name = "mm-solana", specifier = "~=0.2.0" },
     { name = "typer", specifier = ">=0.15.1" },
 ]
 
@@ -839,15 +823,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/bc/57/e84d88dfe0aec03b7a2d4327012c1627ab5f03652216c63d49846d7a6c58/python-dotenv-1.0.1.tar.gz", hash = "sha256:e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca", size = 39115 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl", hash = "sha256:f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a", size = 19863 },
-]
-
-[[package]]
-name = "python-socks"
-version = "2.5.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/26/a2/dac502b749429cec85086ad8077e32a77eef100730dbc13b37ad658079fc/python_socks-2.5.3.tar.gz", hash = "sha256:4414b2a24777e439758a5f4644f81509ee634e6893115fe7fd1ec482b4b5c979", size = 201519 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7e/54/6b907fd2bac4db271902a7a885d4521313b3b754973cfcedb2fb06bf9a00/python_socks-2.5.3-py3-none-any.whl", hash = "sha256:6bc428d0e19f8043e7b8fbc8af33417e690238bd8c9c1e9215871ac18c6136ad", size = 52874 },
 ]
 
 [[package]]

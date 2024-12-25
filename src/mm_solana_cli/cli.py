@@ -2,8 +2,9 @@ from enum import Enum
 from typing import Annotated
 
 import typer
-from mm_solana.cli.cmd import balance_cmd, example_cmd, generate_accounts_cmd, keypair_cmd, node_cmd, transfer_sol_cmd
 from mm_std import print_plain
+
+from mm_solana_cli.cmd import balance_cmd, example_cmd, generate_accounts_cmd, keypair_cmd, node_cmd, transfer_sol_cmd
 
 app = typer.Typer(no_args_is_help=True, pretty_exceptions_enable=False, add_completion=False)
 
