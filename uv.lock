@@ -480,7 +480,7 @@ wheels = [
 
 [[package]]
 name = "mm-solana-cli"
-version = "0.1.0"
+version = "0.1.1"
 source = { editable = "." }
 dependencies = [
     { name = "mm-solana" },
